@@ -1,0 +1,141 @@
+.promo{
+    width: 100%;
+    min-height: 300px;
+}
+
+.btns{
+    margin: 0 -50px;
+    width: calc(100% + 100px);
+    display: flex;
+    position: relative;
+}
+
+.btns::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transform: translateY(100%);
+}
+
+.btn{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 28px;
+    align-items: center;
+    padding: 5px 0;
+    position: relative;
+    transition: .5s background-color;
+    color: #000;
+    margin-right: 2px;
+}
+
+.btn:last-child{
+    margin-right: 0;
+}
+
+.btn::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #000;
+    transform: translateX(100%);
+}
+
+.btn:last-child::before{
+    display: none;
+}
+
+.btn:nth-child(1).active{
+    background-color: #FF0000;
+}
+
+.btn:nth-child(2).active{
+    background-color: #30FF00;
+}
+
+.btn:nth-child(3).active{
+    background-color: #004EFF;
+}
+
+.btn:nth-child(1){
+    border-radius: 10px 0 0 0;
+}
+
+.btn:nth-child(3){
+    border-radius: 0 10px 0 0;
+}
+
+@media (max-width: 1200px){
+    .btn{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 992px){
+    .promo{
+        min-height: 275px;
+    }
+
+    .btn{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 762px){
+    .promo{
+        min-height: 250px;
+    }
+
+    .btns{
+        margin: 0 -60px;
+        width: calc(100% + 120px);
+    }
+
+    .btn{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 576px){
+    .promo{
+        min-height: 210px;
+    }
+
+    .btns{
+        margin: 0 -40px;
+        width: calc(100% + 80px);
+    }
+
+    .btn{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 475px){
+    .promo{
+        min-height: 175px;
+    }
+
+    .btn{
+        font-size: 18px;
+        padding: 2.5px 0;
+    }
+
+    .btns{
+        margin: 0 -20px;
+        width: calc(100% + 40px);
+    }
+}
+
+@media (max-width: 425px){
+    .btn{
+        font-size: 14px;
+    }
+}

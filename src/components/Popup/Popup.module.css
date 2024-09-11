@@ -1,0 +1,114 @@
+.title{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.mainList{
+    width: 100%;
+}
+
+.elem:nth-child(1) .title{
+    color: #30FF00;
+}
+
+.elem:nth-child(2) .title{
+    color: #00F0FF;
+}
+
+.elem:nth-child(3) .title{
+    color: #00F0FF;
+}
+
+.elem{
+    margin-bottom: 20px;
+}
+
+.list{
+    padding-left: 15px;
+}
+
+.item{
+    padding-left: 20px;
+    display: flex;
+    column-gap: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.item:last-child{
+    margin-bottom: 0;
+}
+
+.item::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+@media (max-width: 992px){
+}
+
+@media (max-width: 762px){
+    .title{
+        font-size: 26px;
+    }
+
+    .item{
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 576px){
+    .title{
+        margin-bottom: 10px;
+    }
+
+    .item{
+        margin-bottom: 5px;
+    }
+
+    .list{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 24px;
+    }
+
+    .item{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 475px){
+    .list{
+        padding-left: 5px;
+    }
+
+    .title{
+        font-size: 22px;
+    }
+
+    .item{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 425px){
+    .item{
+        font-size: 12px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+}

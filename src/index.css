@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+@font-face {
+	font-family: "Arial";
+	src: url("./assets/fonts/Arial.woff") format("woff"), url("./assets/fonts/Arial.woff2") format("woff2");
+	font-weight: 400;
+}
+
+#root{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#root::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    font-family: "Arial";
+}
+
+@media screen and (orientation: landscape) and (max-width: 768px) {
+    #root{
+        overflow: auto;
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "socialNetworks": {
+        "opensea": {
+            "isActive": false,
+            "href": "https://opensea.io/collection/rgbfrens"
+        },
+        "twitter": {
+            "isActive": true,
+            "href": "https://twitter.com/rgbfrens"
+        },
+        "discord": {
+            "isActive": false,
+            "href": ""
+        }
+    },
+    "info": {
+        "Frenslist": {
+            "time": "Mint Date TBD.",
+            "price": "Price: Free mint + 0.0049ETH for more. Max Mint = 5 NFTs."
+        },
+        "Public": {
+            "time": "Mint Date TBD.",
+            "price": "Price: 0.0059 ETH. Max Mint = 5 NFTs."
+        }
+    },
+    "articles": [
+        {
+            "text": "The Origin story of RGB Frens (Published 4/25/2023)",
+            "href": "https://www.google.com"
+        },
+        {
+            "text": "The Origin story of RGB Frens (Published 4/25/2023)",
+            "href": "https://www.google.com"
+        },
+        {
+            "text": "The Origin story of RGB Frens (Published 4/25/2023)",
+            "href": "https://www.google.com"
+        },
+        {
+            "text": "The Origin story of RGB Frens (Published 4/25/2023)",
+            "href": "https://www.google.com"
+        },
+        {
+            "text": "The Origin story of RGB Frens (Published 4/25/2023)",
+            "href": "https://www.google.com"
+        },
+        {
+            "text": "The Origin story of RGB Frens (Published 4/25/2023)",
+            "href": "https://www.google.com"
+        }
+    ],
+    "typeMint": "FRENSLIST MINT"
+}
